@@ -5,5 +5,6 @@
 </head>
 <body>
 <h1>INDEX JSP</h1>
+<a href="jspCRUD">CRUD HERE</a>
 </body>
 </html>

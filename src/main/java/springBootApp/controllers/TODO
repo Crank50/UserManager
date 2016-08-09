@@ -1,0 +1,2 @@
+Once you are forked and setup, add JSPs that let a user Create, Read, Update, and Delete Users.
+They will work just like the Rest functions, only with JSPs and HTML.

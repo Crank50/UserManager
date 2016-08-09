@@ -26,14 +26,14 @@ public class JsonRestController {
     }
 
     @RequestMapping("createUser")
-    public String create(String email, String name) {
-        try {
-            User user = new User(email, name);
-            userDao.save(user);
-            return "User "+user.getId()+" created!";
-        }
+        public String create(String email, String name) {
+            try {
+                User user = new User(email, name);
+                userDao.save(user);
+                return "User"+user.getId()+" created!";
+            }
         catch (Exception e) {
-            return "Error creating user: " + e.toString();
+            return "JsonRestController Error: " + e.toString();
         }
     }
 

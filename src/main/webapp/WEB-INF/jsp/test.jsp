@@ -5,5 +5,6 @@
 </head>
 <body>
 <h1>TEST JSP</h1>
+<h1>Greetings from Spring Boot!</h1>
 </body>
 </html>
